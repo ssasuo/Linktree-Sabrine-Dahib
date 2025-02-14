@@ -23,7 +23,7 @@
 /* Base Styles */
 html, body {
     height: 100%;
-    overflow: hidden; /* Prevent scrolling */
+    overflow: hidden;
 }
 
 body {
@@ -46,7 +46,7 @@ header {
     width: 100%;
     background: var(--color-background);
     padding: var(--spacing-sm);
-    height: auto; /* Adjust height */
+    height: auto; 
     position: relative;
     z-index: 1000;
 }
@@ -74,7 +74,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px; /* Reduce gap */
+    gap: 10px; 
     width: 100%;
     padding: var(--spacing-sm);
 }
@@ -99,8 +99,8 @@ header {
 
 /* Main Content */
 main {
-    width: 90%; /* Adjust width */
-    max-width: 900px; /* Adjust max-width */
+    width: 90%; 
+    max-width: 900px; 
     margin: var(--spacing-sm) auto;
     padding: var(--spacing-md);
     border-radius: 10px;
@@ -114,13 +114,13 @@ main {
     background-size: 200% 200%;
     animation: particles 10s infinite linear;
     backdrop-filter: blur(5px);
-    overflow: hidden; /* Prevent scrolling */
+    overflow: hidden; 
 }
 
 /* Profile Image */
 main img {
-    width: 100px; /* Adjust size */
-    height: 100px; /* Adjust size */
+    width: 100px; 
+    height: 100px; 
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--color-primary);
@@ -154,7 +154,7 @@ h2 {
     flex-direction: column;
     gap: var(--spacing-sm);
     width: 100%;
-    max-width: 400px; /* Adjust max-width */
+    max-width: 400px;
 }
 
 /* Button Styles */
@@ -162,8 +162,8 @@ h2 {
     display: block;
     font-family: var(--font-primary);
     width: 100%;
-    height: 35px; /* Adjust height */
-    font-size: 0.7rem; /* Adjust font size */
+    height: 35px; 
+    font-size: 0.7rem;
     color: var(--color-text);
     background: var(--color-background);
     border: 2px solid white;
@@ -172,7 +172,7 @@ h2 {
     letter-spacing: 2px;
     transition: transform var(--transition-speed) ease, background-color var(--transition-speed) ease;
     text-align: center;
-    line-height: 35px; /* Adjust line-height */
+    line-height: 35px;
     text-decoration: none;
 }
 
@@ -187,13 +187,13 @@ h2 {
 .logos {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Reduce gap */
+    gap: 10px;
     margin-top: var(--spacing-md);
 }
 
 .logos img {
-    width: 35px; /* Adjust size */
-    height: 35px; /* Adjust size */
+    width: 35px;
+    height: 35px; 
     border: 2px solid white;
     animation: rotateLogo 10s linear infinite;
     transition: transform var(--transition-speed) ease;
@@ -268,23 +268,23 @@ footer {
     }
 
     .button-link {
-        height: 35px; /* Adjust height */
+        height: 35px; 
         font-size: 0.7rem;
-        line-height: 35px; /* Adjust line-height */
+        line-height: 35px; 
     }
 
     .logos img {
-        width: 35px; /* Adjust size */
-        height: 35px; /* Adjust size */
+        width: 35px; 
+        height: 35px; 
     }
 
     main img {
-        width: 100px; /* Adjust size */
-        height: 100px; /* Adjust size */
+        width: 100px; 
+        height: 100px; 
     }
 
     .title, h2 {
-        font-size: clamp(1rem, 4vw, 1.8rem); /* Ensure text size scales with screen size */
+        font-size: clamp(1rem, 4vw, 1.8rem); 
     }
 }
 
@@ -301,7 +301,7 @@ footer {
 
     .nav-links {
         width: auto;
-        gap: 15px; /* Adjust gap */
+        gap: 15px; 
     }
 
     .nav-links a {
