@@ -2,6 +2,9 @@
 
 PixelPath is a creative and customizable **Linktree alternative** designed as part of a school project for my UI/UX design studies. It allows users to showcase their social media, projects, and other important links in a structured and visually appealing way.
 
+### Online Version
+You can access the live version of PixelPath here: https://linktree-sabrine-dahib.vercel.app/
+
 ## Features
 - **Retro pixel art aesthetic** with pixel fonts 
 - **Fully responsive** design for all devices 
